@@ -1,0 +1,24 @@
+﻿<resources>
+    <string name="app_name">Agenda de Usuários</string>
+    <string name="titulo">Cadastro de usuários</string>
+    <string name="instrucoes">Gravar cria um usuário com o nome informado. Consulte sem código para listar todos, ou informe um código para buscar. Para atualizar ou deletar, use o código exibido nos resultados.</string>
+    <string name="codigo">Código do usuário</string>
+    <string name="nome">Nome</string>
+    <string name="gravar">Gravar</string>
+    <string name="consultar">Consultar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="deletar">Deletar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="resultado_inicial">Seus usuários aparecerão aqui. Toque em Consultar.</string>
+    <string name="nome_obrigatorio">Informe um nome de até 100 caracteres.</string>
+    <string name="codigo_invalido">Informe um código numérico maior que zero.</string>
+    <string name="gravado">Usuário cadastrado! Código: %1$d</string>
+    <string name="atualizado">Usuário %1$d atualizado.</string>
+    <string name="deletado">Usuário %1$d excluído.</string>
+    <string name="nao_encontrado">Nenhum usuário encontrado com esse código.</string>
+    <string name="banco_vazio">Nenhum usuário cadastrado. Informe um nome e toque em Gravar.</string>
+    <string name="erro_banco">Não foi possível acessar o banco de dados. Tente novamente.</string>
+    <string name="confirmar_exclusao">Excluir %1$s (código %2$d)? Esta ação não pode ser desfeita.</string>
+    <string name="linha_usuario">Código: %1$d • %2$s</string>
+    <string name="total_usuarios">Usuários encontrados: %1$d</string>
+</resources>

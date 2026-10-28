@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"
+            android:fontFamily="monospace" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/instrucoes"
+            android:textSize="16sp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/codigo">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="19"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/nome">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btnGravar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/gravar"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#C62828" />
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consultar"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0" />
+        <Button
+            android:id="@+id/btnAtualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/atualizar"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00695C" />
+        <Button
+            android:id="@+id/btnDeletar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deletar"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#AD1457" />
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:background="#E8EEF5"
+            android:textColor="#172B4D"
+            android:text="@string/resultado_inicial"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:accessibilityLiveRegion="polite" />
+    </LinearLayout>
+</ScrollView>
